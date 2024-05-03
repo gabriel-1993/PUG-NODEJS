@@ -1,0 +1,27 @@
+html
+  head
+    title #{title}
+    link(rel='stylesheet', href='/style/style.css') 
+
+  body 
+    .divConsigna
+      p.Pconsigna Consigna 5
+      img(src='/images/5.PNG', alt='Imagen 5', class='imagen') 
+    h1.h1Noticias Formulario para agregar una noticia
+
+#content3
+
+  form(action='/noticias/agregar', method='POST',class='form4')
+    label(for='titulo') Título:(Por ej:Herramienta para reemplazar HTML...)
+    input(type='text', id='titulo', name='titulo', required)
+    label(for='descripcion') Descripción:(Es posible renderizar desde el servidor con PUG... )
+    textarea(id='descripcion', name='descripcion', required)
+    label(for='categoria') Categoría:
+    select(name='categoria', id='categoria')
+      each categoria in categorias
+        option(value=categoria.id)= categoria.nombre
+    label(for='fecha') Fecha:
+    input(type='date', id='fecha', name='fecha', required)
+    label(for='url_imagen') URL de la Imagen: /images/pugg.PNG 
+    input(type='text', id='url_imagen', name='url_imagen', required)
+    button(type='submit' class='btn3') Agregar

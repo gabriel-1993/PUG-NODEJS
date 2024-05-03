@@ -1,0 +1,23 @@
+html
+  head
+    title #{title}
+    link(rel='stylesheet', href='/style/style.css') 
+
+  body 
+    .divConsigna
+      p.Pconsigna Consigna 5
+      img(src='/images/5.PNG', alt='Imagen 5', class='imagen') 
+    h1.h1Noticias Todas las Noticias
+    p.pDato Al borrar una noticia, se elimina de su archivo(JSON) original
+    #content5
+        each noticia in noticias
+          div.divNoticia
+              img(src=noticia.url_imagen, alt=noticia.titulo, class='imgNoticia')
+              h2.h2Noticia= noticia.titulo
+              p.fechaNoticia= noticia.fecha
+              p.descripcionNoticia= noticia.descripcion
+              form(action='/noticias/borrar', method='POST')
+                  input(type='hidden', name='index', value=noticias.indexOf(noticia))
+                  button.btnNoticia(type='submit') Borrar
+        div.divBtnAgregar       
+          a(href='/noticias/punto5Insertar' class='agregarNoticia') Agregar Noticia

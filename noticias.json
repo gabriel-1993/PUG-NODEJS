@@ -1,0 +1,65 @@
+[
+  {
+    "titulo": "Se acercan las inscripciones",
+    "descripcion": "Del 6 al 31 de mayo estaran abiertas para carreras en convenio ULP/UNTREF",
+    "categoria": 1,
+    "fecha": "2024-05-02",
+    "url_imagen": "images/noticia1.JPG"
+  },
+  {
+    "titulo": "¿Cuántas personas estudian en Argentina ?",
+    "descripcion": "Entre los datos recopilados, Argentina cuenta con 2.730.754 estudiantes, que cursan en las 132 universidades de todo el país.",
+    "categoria": "1",
+    "fecha": "2024-05-02",
+    "url_imagen": "/images/noticia2.JPG"
+  },
+  {
+    "titulo": "Soda Stereo y Santaolalla",
+    "descripcion": "Recibieron un premio como reconocimiento a la Excelencia Musical el 13 nov 2023 — Latin Grammy 2023.",
+    "categoria": 3,
+    "fecha": "2023-11-14",
+    "url_imagen": "/images/soda.PNG"
+  },
+  {
+    "titulo": "Fuerte choque entre dos colectivos",
+    "descripcion": "Uno de los rodados se subió arriba de la vereda y derribó un árbol y un semáforo, investigan si ambos conductores cruzaron en rojo.",
+    "categoria": 2,
+    "fecha": "2024-05-02",
+    "url_imagen": "/images/colectivo.PNG"
+  },
+  {
+    "titulo": "Prepagas: en medio de controversias",
+    "descripcion": "Según información aportada por las entidades y confirmada por fuentes oficiales, la regla es que los precios de este mes pueden ser, como máximo, un 114,5% más altos que los de diciembre.",
+    "categoria": 5,
+    "fecha": "2024-05-02",
+    "url_imagen": "/images/prepagas.PNG"
+  },
+  {
+    "titulo": "Manipulan video de Robert de Niro",
+    "descripcion": "Comenzó a circular en las redes un clip del protagonista de Cabo de miedo en el que supuestamente increpaba a unos manifestantes y su representante se vio obligado a salir a dar explicaciones.",
+    "categoria": 2,
+    "fecha": "2024-05-02",
+    "url_imagen": "/images/robert.PNG"
+  },
+  {
+    "titulo": "Autos varados y turistas atrapados",
+    "descripcion": "una intensa nevada ocasionó demoras en las rutas de Neuquén y Río Negro y hay alerta amarilla.",
+    "categoria": 2,
+    "fecha": "2024-05-02",
+    "url_imagen": "/images/nieve.PNG"
+  },
+  {
+    "titulo": "Cubana de Aviación",
+    "descripcion": "Tras la negativa de YPF de venderle combustible suspende sus vuelos a la Argentina.",
+    "categoria": 2,
+    "fecha": "2024-05-02",
+    "url_imagen": "/images/avion.PNG"
+  },
+  {
+    "titulo": "Herramienta para reemplazar HTML",
+    "descripcion": "Es posible renderizar desde el servidor con PUG...",
+    "categoria": "1",
+    "fecha": "2024-05-01",
+    "url_imagen": "/images/pugg.PNG"
+  }
+]

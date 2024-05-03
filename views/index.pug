@@ -1,0 +1,41 @@
+html 
+    head 
+        title #{title}
+        link(rel='stylesheet', href='/style/style.css') 
+    body 
+        .divConsigna
+            img(src='/images/1.PNG', alt='Imagen 1', class='imagen')
+            p.Pconsigna Consigna 1
+        #content 
+            h1 Express 
+            p Welcome to Express 
+            p Fruit 
+            ul 
+                li Apples 
+                li Bananas 
+                li Oranges 
+            p Color 
+                
+            ul.color    
+                li Red 
+                li Green 
+                li Blue 
+
+                    
+        .divConsigna
+            p.Pconsigna Consigna 2
+            img(src='/images/2.PNG', alt='Imagen 2', class='imagen')
+        #content 
+            p Search
+            ul.search
+                li
+                    a(href='https://google.com') Google
+                li
+                    a(href='https://bing.com/') Bing
+                li
+                    a(href='https://duckduckgo.com/', target='_blank') DuckDuckGo
+        
+        include punto3.pug
+        include punto4.pug
+        include punto5.pug
+            

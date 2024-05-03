@@ -1,0 +1,7 @@
+[
+    { "id": 1, "nombre": "Educacion" },
+    { "id": 2, "nombre": "Actualidad" },
+    { "id": 3, "nombre": "Arte" },
+    { "id": 4, "nombre": "Tecnología" },
+    { "id": 5, "nombre": "Salud" }
+]

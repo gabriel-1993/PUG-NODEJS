@@ -1,0 +1,32 @@
+html
+  head
+    title #{title}
+    link(rel='stylesheet', href='/style/style.css') 
+
+  body 
+    .divConsigna
+      p.Pconsigna Consigna 4
+      img(src='/images/4.PNG', alt='Imagen 4', class='imagen')        
+
+    #content4
+      div.divContenedor4
+        ul   
+          li Animal
+          li Color
+          li Tiene Pelo
+          li Tiene 4 Patas
+
+      each animal in zoologico
+        ul.ulDatos 
+          li= animal.animal
+          li(style=`background-color: ${animal.color}`)= animal.color
+          li
+            if animal.tienePelo
+              img(src='/images/ok.png', alt='Pelo', class='animal-icon')
+            else
+              img(src='/images/error.png', alt='Sin Pelo', class='animal-icon')
+          li
+            if animal.tiene4Patas
+              img(src='/images/ok.png', alt='Cuatro Patas', class='animal-icon')
+            else
+              img(src='/images/error.png', alt='Menos de Cuatro Patas', class='animal-icon')

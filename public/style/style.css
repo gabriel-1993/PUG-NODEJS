@@ -1,0 +1,209 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.divConsigna {
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.imagen {
+    width: 70%;
+    max-width: 1100px;
+
+}
+
+.Pconsigna {
+    background-color: rgb(10, 10, 105);
+    color: white;
+    font-size: 1.2rem;
+    font-family: monospace;
+    padding: 8px;
+    text-align: center;
+    width: 100%;
+    max-width: 1100px;
+
+}
+
+#content {
+    width: 50%;
+    max-width: 1100px;
+    margin: 5px auto;
+    padding: 20px;
+    border: solid 2px rgb(10, 10, 105);
+    border-radius: 5px;
+}
+
+h1 {
+    color: rgb(10, 10, 105);
+    margin-bottom: 10px;
+}
+
+p {
+    color: blue;
+    font-weight: 600;
+}
+
+ul {
+    margin: 5px 0;
+}
+
+li {
+    font-weight: 900;
+}
+
+
+
+/* CONSIGNA 3 Form */
+#content3 {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.form3,
+.form4 {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 60%;
+    max-width: 1100px;
+    padding: 40px;
+    border: solid 2px rgb(10, 10, 105);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.btn3 {
+    background-color: blue;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    margin: 15px 0px;
+}
+
+/* CONSIGNA 4 */
+#content4 {
+    width: 60%;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.divContenedor4 ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    border-bottom: 2px solid rgb(10, 10, 105);
+}
+
+.ulDatos {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+
+.ulDatos li {
+    width: 100px;
+    height: 50px;
+    text-align: start;
+}
+
+/* CONSIGNA 5 */
+#content5 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 5px;
+    width: 90%;
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    border: solid 2px rgb(10, 10, 105);
+    border-radius: 3px;
+    flex-wrap: wrap;
+}
+
+.pDato {
+    width: 100%;
+    text-align: center;
+}
+
+.h1Noticias {
+    text-align: center;
+}
+
+.divNoticia {
+    border: solid 2px rgb(10, 10, 105);
+    border-radius: 3px;
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.h2Noticia {
+    font-family: monospace;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+   color: rgb(10, 10, 105);
+}
+
+.fechaNoticia {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 900;
+}
+
+.descripcionNoticia {
+    color: rgb(10, 10, 105);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 4px;
+}
+
+.btnNoticia {
+    background-color: rgb(10, 10, 105);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: monospace;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.divBtnAgregar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.agregarNoticia {
+    background-color: blue;
+    color: #fff;
+    padding: 15px;
+    width: 40%;
+    text-decoration: none;
+    text-align: center;
+    font-family: monospace;
+    font-size: 1rem;
+    border-radius: 4px;
+}
